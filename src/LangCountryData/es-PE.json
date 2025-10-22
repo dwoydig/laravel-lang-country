@@ -1,0 +1,20 @@
+{
+    "country": "PE",
+    "country_name": "Peru",
+    "country_name_local": "Perú",
+    "lang": "es",
+    "lang_dir": "ltr",
+    "name": "Español (Perú)",
+    "date_numbers": "d/m/Y",
+    "date_numbers_full_capitals": "DD/MM/YYYY",
+    "date_words_without_day": "j de F de Y",
+    "date_words_with_day": "l, j de F de Y",
+    "date_birthday": "j de F",
+    "time_format": "H:i",
+    "emoji_flag": "🇵🇪",
+    "currency_code": "PEN",
+    "currency_symbol": "S/",
+    "currency_symbol_local": "S/",
+    "currency_name": "Peruvian Sol",
+    "currency_name_local": "Sol peruano"
+}

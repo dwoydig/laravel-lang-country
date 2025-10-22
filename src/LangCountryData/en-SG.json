@@ -1,0 +1,20 @@
+{
+    "country": "SG",
+    "country_name": "Singapore",
+    "country_name_local": "Singapore",
+    "lang": "en",
+    "lang_dir": "ltr",
+    "name": "English (Singapore)",
+    "date_numbers": "d/m/Y",
+    "date_numbers_full_capitals": "DD/MM/YYYY",
+    "date_words_without_day": "F j, Y",
+    "date_words_with_day": "l, F j, Y",
+    "date_birthday": "F j",
+    "time_format": "H:i",
+    "emoji_flag": "🇸🇬",
+    "currency_code": "SGD",
+    "currency_symbol": "$",
+    "currency_symbol_local": "S$",
+    "currency_name": "Singapore Dollar",
+    "currency_name_local": "Singapore Dollar"
+}

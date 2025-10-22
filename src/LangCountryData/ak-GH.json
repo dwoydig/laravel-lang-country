@@ -1,0 +1,20 @@
+{
+    "country": "GH",
+    "country_name": "Ghana",
+    "country_name_local": "Ghana",
+    "lang": "ak",
+    "lang_dir": "ltr",
+    "name": "Akan",
+    "date_numbers": "d/m/Y",
+    "date_numbers_full_capitals": "DD/MM/YYYY",
+    "date_words_without_day": "j F Y",
+    "date_words_with_day": "l, j F Y",
+    "date_birthday": "j F",
+    "time_format": "H:i",
+    "emoji_flag": "🇬🇭",
+    "currency_code": "GHS",
+    "currency_symbol": "₵",
+    "currency_symbol_local": "₵",
+    "currency_name": "Ghanaian Cedi",
+    "currency_name_local": "Sidi Gana"
+}

@@ -1,0 +1,20 @@
+{
+    "country": "IR",
+    "country_name": "Iran",
+    "country_name_local": "ایران",
+    "lang": "fa",
+    "lang_dir": "rtl",
+    "name": "فارسی",
+    "date_numbers": "Y/m/d",
+    "date_numbers_full_capitals": "YYYY/MM/DD",
+    "date_words_without_day": "j F Y",
+    "date_words_with_day": "l j F Y",
+    "date_birthday": "j F",
+    "time_format": "H:i",
+    "emoji_flag": "🇮🇷",
+    "currency_code": "IRR",
+    "currency_symbol": "﷼",
+    "currency_symbol_local": "﷼",
+    "currency_name": "Iranian Rial",
+    "currency_name_local": "ریال ایران"
+}

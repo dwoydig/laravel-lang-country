@@ -3,6 +3,7 @@
   "country_name": "United States of America",
   "country_name_local": "America",
   "lang": "en",
+  "lang_dir": "ltr",
   "name": "American English",
   "date_numbers": "m/d/Y",
   "date_numbers_full_capitals": "MM/DD/YYYY",

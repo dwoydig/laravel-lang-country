@@ -1,0 +1,20 @@
+{
+    "country": "LV",
+    "country_name": "Latvia",
+    "country_name_local": "Latvija",
+    "lang": "lv",
+    "lang_dir": "ltr",
+    "name": "Latviešu",
+    "date_numbers": "Y.m.d",
+    "date_numbers_full_capitals": "YYYY.MM.DD",
+    "date_words_without_day": "Y. 'gada' F j.",
+    "date_words_with_day": "Y. 'gada' F j., l",
+    "date_birthday": "F j.",
+    "time_format": "H:i",
+    "emoji_flag": "🇱🇻",
+    "currency_code": "EUR",
+    "currency_symbol": "€",
+    "currency_symbol_local": "€",
+    "currency_name": "Euro",
+    "currency_name_local": "Eiro"
+}

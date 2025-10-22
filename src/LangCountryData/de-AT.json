@@ -3,6 +3,7 @@
   "country_name": "Austria",
   "country_name_local": "Österreich",
   "lang": "de",
+  "lang_dir": "ltr",
   "name": "Österreich",
   "date_numbers": "d.m.Y",
   "date_numbers_full_capitals": "DD.MM.YYYY",

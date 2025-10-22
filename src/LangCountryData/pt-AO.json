@@ -1,0 +1,20 @@
+{
+    "country": "AO",
+    "country_name": "Angola",
+    "country_name_local": "Angola",
+    "lang": "pt",
+    "lang_dir": "ltr",
+    "name": "Português (Angola)",
+    "date_numbers": "d/m/Y",
+    "date_numbers_full_capitals": "DD/MM/YYYY",
+    "date_words_without_day": "j de F de Y",
+    "date_words_with_day": "l, j de F de Y",
+    "date_birthday": "j de F",
+    "time_format": "H:i",
+    "emoji_flag": "🇦🇴",
+    "currency_code": "AOA",
+    "currency_symbol": "Kz",
+    "currency_symbol_local": "Kz",
+    "currency_name": "Angolan Kwanza",
+    "currency_name_local": "Kwanza angolano"
+}

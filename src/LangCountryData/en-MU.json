@@ -1,0 +1,20 @@
+{
+    "country": "MU",
+    "country_name": "Mauritius",
+    "country_name_local": "Mauritius",
+    "lang": "en",
+    "lang_dir": "ltr",
+    "name": "English (Mauritius)",
+    "date_numbers": "d/m/Y",
+    "date_numbers_full_capitals": "DD/MM/YYYY",
+    "date_words_without_day": "F j, Y",
+    "date_words_with_day": "l, F j, Y",
+    "date_birthday": "F j",
+    "time_format": "H:i",
+    "emoji_flag": "🇲🇺",
+    "currency_code": "MUR",
+    "currency_symbol": "₨",
+    "currency_symbol_local": "₨",
+    "currency_name": "Mauritian Rupee",
+    "currency_name_local": "Mauritian Rupee"
+}

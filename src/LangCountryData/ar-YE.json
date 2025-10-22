@@ -1,0 +1,20 @@
+{
+    "country": "YE",
+    "country_name": "Yemen",
+    "country_name_local": "اليمن",
+    "lang": "ar",
+    "lang_dir": "rtl",
+    "name": "العربية (اليمن)",
+    "date_numbers": "d/m/Y",
+    "date_numbers_full_capitals": "DD/MM/YYYY",
+    "date_words_without_day": "j F Y",
+    "date_words_with_day": "l j F Y",
+    "date_birthday": "j F",
+    "time_format": "h:i a",
+    "emoji_flag": "🇾🇪",
+    "currency_code": "YER",
+    "currency_symbol": "ر.ي",
+    "currency_symbol_local": "ر.ي",
+    "currency_name": "Yemeni Rial",
+    "currency_name_local": "ريال يمني"
+}

@@ -1,0 +1,20 @@
+{
+    "country": "QO",
+    "country_name": "Klingon Empire",
+    "country_name_local": "tlhIngan wo’",
+    "lang": "tlh",
+    "lang_dir": "ltr",
+    "name": "tlhIngan Hol",
+    "date_numbers": "Y-m-d",
+    "date_numbers_full_capitals": "YYYY-MM-DD",
+    "date_words_without_day": "Y DIS m jar d jaj",
+    "date_words_with_day": "jajvam, d m Y DIS",
+    "date_birthday": "m jar d jaj",
+    "time_format": "H:i",
+    "emoji_flag": "🏴‍☠️",
+    "currency_code": "DKT",
+    "currency_symbol": "⚔️",
+    "currency_symbol_local": "⚔️",
+    "currency_name": "Darsek",
+    "currency_name_local": "Darsek"
+}

@@ -3,6 +3,7 @@
     "country_name": "Hungary",
     "country_name_local": "Magyarország",
     "lang": "hu",
+    "lang_dir": "ltr",
     "name": "Hungarian",
     "date_numbers": "Y.m.d.",
     "date_numbers_full_capitals": "YYYY.MM.DD.",

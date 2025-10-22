@@ -1,0 +1,20 @@
+{
+    "country": "MN",
+    "country_name": "Mongolia",
+    "country_name_local": "Монгол Улс",
+    "lang": "mn",
+    "lang_dir": "ltr",
+    "name": "Монгол хэл",
+    "date_numbers": "Y.m.d",
+    "date_numbers_full_capitals": "YYYY.MM.DD",
+    "date_words_without_day": "Y 'оны' F j",
+    "date_words_with_day": "Y 'оны' F j, l",
+    "date_birthday": "F j",
+    "time_format": "H:i",
+    "emoji_flag": "🇲🇳",
+    "currency_code": "MNT",
+    "currency_symbol": "₮",
+    "currency_symbol_local": "₮",
+    "currency_name": "Mongolian Tögrög",
+    "currency_name_local": "Төгрөг"
+}

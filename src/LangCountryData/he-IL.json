@@ -1,0 +1,20 @@
+{
+    "country": "IL",
+    "country_name": "Israel",
+    "country_name_local": "ישראל",
+    "lang": "he",
+    "lang_dir": "rtl",
+    "name": "עברית",
+    "date_numbers": "d/m/Y",
+    "date_numbers_full_capitals": "DD/MM/YYYY",
+    "date_words_without_day": "j F Y",
+    "date_words_with_day": "l j F Y",
+    "date_birthday": "j F",
+    "time_format": "H:i",
+    "emoji_flag": "🇮🇱",
+    "currency_code": "ILS",
+    "currency_symbol": "₪",
+    "currency_symbol_local": "₪",
+    "currency_name": "Israeli Shekel",
+    "currency_name_local": "שקל חדש"
+}

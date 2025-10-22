@@ -1,0 +1,20 @@
+{
+    "country": "PA",
+    "country_name": "Panama",
+    "country_name_local": "Panamá",
+    "lang": "es",
+    "lang_dir": "ltr",
+    "name": "Español (Panamá)",
+    "date_numbers": "d/m/Y",
+    "date_numbers_full_capitals": "DD/MM/YYYY",
+    "date_words_without_day": "j de F de Y",
+    "date_words_with_day": "l, j de F de Y",
+    "date_birthday": "j de F",
+    "time_format": "H:i",
+    "emoji_flag": "🇵🇦",
+    "currency_code": "PAB",
+    "currency_symbol": "B/.",
+    "currency_symbol_local": "B/.",
+    "currency_name": "Panamanian Balboa",
+    "currency_name_local": "Balboa panameño"
+}

@@ -1,0 +1,20 @@
+{
+    "country": "AS",
+    "country_name": "American Samoa",
+    "country_name_local": "American Samoa",
+    "lang": "en",
+    "lang_dir": "ltr",
+    "name": "English (American Samoa)",
+    "date_numbers": "m/d/Y",
+    "date_numbers_full_capitals": "MM/DD/YYYY",
+    "date_words_without_day": "F j, Y",
+    "date_words_with_day": "l, F j, Y",
+    "date_birthday": "F j",
+    "time_format": "h:i a",
+    "emoji_flag": "🇦🇸",
+    "currency_code": "USD",
+    "currency_symbol": "$",
+    "currency_symbol_local": "$",
+    "currency_name": "US Dollar",
+    "currency_name_local": "US Dollar"
+}

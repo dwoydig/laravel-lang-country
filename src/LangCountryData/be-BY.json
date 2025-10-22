@@ -1,0 +1,20 @@
+{
+    "country": "BY",
+    "country_name": "Belarus",
+    "country_name_local": "Беларусь",
+    "lang": "be",
+    "lang_dir": "ltr",
+    "name": "Беларуская",
+    "date_numbers": "d.m.Y",
+    "date_numbers_full_capitals": "DD.MM.YYYY",
+    "date_words_without_day": "j F Y",
+    "date_words_with_day": "l, j F Y",
+    "date_birthday": "j F",
+    "time_format": "H:i",
+    "emoji_flag": "🇧🇾",
+    "currency_code": "BYN",
+    "currency_symbol": "Br",
+    "currency_symbol_local": "Br",
+    "currency_name": "Belarusian Ruble",
+    "currency_name_local": "Беларускі рубель"
+}

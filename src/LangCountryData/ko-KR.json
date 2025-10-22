@@ -1,0 +1,20 @@
+{
+    "country": "KR",
+    "country_name": "South Korea",
+    "country_name_local": "대한민국",
+    "lang": "ko",
+    "lang_dir": "ltr",
+    "name": "한국어",
+    "date_numbers": "Y-m-d",
+    "date_numbers_full_capitals": "YYYY-MM-DD",
+    "date_words_without_day": "Y년 n월 j일",
+    "date_words_with_day": "Y년 n월 j일 l",
+    "date_birthday": "n월 j일",
+    "time_format": "H:i",
+    "emoji_flag": "🇰🇷",
+    "currency_code": "KRW",
+    "currency_symbol": "₩",
+    "currency_symbol_local": "₩",
+    "currency_name": "South Korean Won",
+    "currency_name_local": "대한민국 원"
+}

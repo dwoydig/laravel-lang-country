@@ -3,6 +3,7 @@
   "country_name": "Russia",
   "country_name_local": "Россия",
   "lang": "ru",
+  "lang_dir": "ltr",
   "name": "Русский",
   "date_numbers": "d.m.Y",
   "date_numbers_full_capitals": "DD.MM.YYYY",

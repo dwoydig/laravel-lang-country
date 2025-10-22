@@ -1,0 +1,20 @@
+{
+    "country": "MO",
+    "country_name": "Macau",
+    "country_name_local": "澳門",
+    "lang": "yue",
+    "lang_dir": "ltr",
+    "name": "廣東話（澳門）",
+    "date_numbers": "Y/m/d",
+    "date_numbers_full_capitals": "YYYY/MM/DD",
+    "date_words_without_day": "Y年n月j日",
+    "date_words_with_day": "Y年n月j日 l",
+    "date_birthday": "n月j日",
+    "time_format": "H:i",
+    "emoji_flag": "🇲🇴",
+    "currency_code": "MOP",
+    "currency_symbol": "MOP$",
+    "currency_symbol_local": "MOP$",
+    "currency_name": "Macanese Pataca",
+    "currency_name_local": "澳門元"
+}

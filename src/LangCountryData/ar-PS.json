@@ -1,0 +1,20 @@
+{
+    "country": "PS",
+    "country_name": "Palestine",
+    "country_name_local": "فلسطين",
+    "lang": "ar",
+    "lang_dir": "rtl",
+    "name": "العربية (فلسطين)",
+    "date_numbers": "d/m/Y",
+    "date_numbers_full_capitals": "DD/MM/YYYY",
+    "date_words_without_day": "j F Y",
+    "date_words_with_day": "l j F Y",
+    "date_birthday": "j F",
+    "time_format": "h:i a",
+    "emoji_flag": "🇵🇸",
+    "currency_code": "ILS",
+    "currency_symbol": "₪",
+    "currency_symbol_local": "₪",
+    "currency_name": "Israeli New Shekel",
+    "currency_name_local": "شيكل جديد"
+}

@@ -1,0 +1,20 @@
+{
+    "country": "SE",
+    "country_name": "Sweden",
+    "country_name_local": "Sverige",
+    "lang": "sv",
+    "lang_dir": "ltr",
+    "name": "Svenska (Sverige)",
+    "date_numbers": "Y-m-d",
+    "date_numbers_full_capitals": "YYYY-MM-DD",
+    "date_words_without_day": "j F Y",
+    "date_words_with_day": "l j F Y",
+    "date_birthday": "j F",
+    "time_format": "H:i",
+    "emoji_flag": "🇸🇪",
+    "currency_code": "SEK",
+    "currency_symbol": "kr",
+    "currency_symbol_local": "kr",
+    "currency_name": "Swedish Krona",
+    "currency_name_local": "Svensk krona"
+}

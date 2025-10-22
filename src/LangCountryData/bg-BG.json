@@ -4,6 +4,7 @@
     "country_name_local": "България",
     "lang": "bg",
     "name": "Bulgarian",
+    "lang_dir": "ltr",
     "date_numbers": "d.m.Y",
     "date_numbers_full_capitals": "DD.MM.YYYY",
     "date_words_without_day": "j F Y",

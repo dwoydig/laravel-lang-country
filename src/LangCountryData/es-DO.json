@@ -1,0 +1,20 @@
+{
+    "country": "DO",
+    "country_name": "Dominican Republic",
+    "country_name_local": "República Dominicana",
+    "lang": "es",
+    "lang_dir": "ltr",
+    "name": "Español (República Dominicana)",
+    "date_numbers": "d/m/Y",
+    "date_numbers_full_capitals": "DD/MM/YYYY",
+    "date_words_without_day": "j de F de Y",
+    "date_words_with_day": "l, j de F de Y",
+    "date_birthday": "j de F",
+    "time_format": "H:i",
+    "emoji_flag": "🇩🇴",
+    "currency_code": "DOP",
+    "currency_symbol": "RD$",
+    "currency_symbol_local": "RD$",
+    "currency_name": "Dominican Peso",
+    "currency_name_local": "Peso dominicano"
+}

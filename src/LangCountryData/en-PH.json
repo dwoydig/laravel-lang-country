@@ -1,0 +1,20 @@
+{
+    "country": "PH",
+    "country_name": "Philippines",
+    "country_name_local": "Pilipinas",
+    "lang": "en",
+    "lang_dir": "ltr",
+    "name": "English (Philippines)",
+    "date_numbers": "m/d/Y",
+    "date_numbers_full_capitals": "MM/DD/YYYY",
+    "date_words_without_day": "F j, Y",
+    "date_words_with_day": "l, F j, Y",
+    "date_birthday": "F j",
+    "time_format": "h:i a",
+    "emoji_flag": "🇵🇭",
+    "currency_code": "PHP",
+    "currency_symbol": "₱",
+    "currency_symbol_local": "₱",
+    "currency_name": "Philippine Peso",
+    "currency_name_local": "Philippine Peso"
+}

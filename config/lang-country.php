@@ -1,6 +1,8 @@
 <?php
 
 return [
+    'lang_country_field' => 'lang_country', // db_field_name for storing lang-country code
+
     'fallback' => 'en-GB',
 
     'allowed' => [

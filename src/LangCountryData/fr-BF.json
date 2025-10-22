@@ -1,0 +1,20 @@
+{
+    "country": "BF",
+    "country_name": "Burkina Faso",
+    "country_name_local": "Burkina Faso",
+    "lang": "fr",
+    "lang_dir": "ltr",
+    "name": "Français (Burkina Faso)",
+    "date_numbers": "d/m/Y",
+    "date_numbers_full_capitals": "DD/MM/YYYY",
+    "date_words_without_day": "j F Y",
+    "date_words_with_day": "l j F Y",
+    "date_birthday": "j F",
+    "time_format": "H:i",
+    "emoji_flag": "🇧🇫",
+    "currency_code": "XOF",
+    "currency_symbol": "CFA",
+    "currency_symbol_local": "CFA",
+    "currency_name": "West African CFA Franc",
+    "currency_name_local": "Franc CFA d’Afrique de l’Ouest"
+}
