@@ -1,5 +1,5 @@
 {
-  "name": "stefro/laravel-lang-country",
+  "name": "dwoydig/laravel-lang-country",
   "description": "Setting the locale is not enough most of the time, some countries use more than one languages. Also, different countries use different date notation formats, names, flags and currencies. This package is here to help you with that!",
   "keywords": [
     "LaravelLangCountry"
@@ -28,7 +28,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Stefro\\LaravelLangCountry\\": "src"
+      "Dwoydig\\LaravelLangCountry\\": "src"
     }
   },
   "autoload-dev": {
