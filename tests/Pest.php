@@ -11,7 +11,7 @@
 |
 */
 
-use Stefro\LaravelLangCountry\Tests\TestCase;
+use Dwoydig\LaravelLangCountry\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);
 

@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Stefro\LaravelLangCountry\Tests;
 
 use Spatie\LaravelRay\RayServiceProvider;
-use Stefro\LaravelLangCountry\LaravelLangCountryServiceProvider;
+use Dwoydig\LaravelLangCountry\LaravelLangCountryServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {
@@ -28,7 +28,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
     protected function getPackageAliases($app)
     {
         return [
-            'LangCountry' => \Stefro\LaravelLangCountry\LangCountryFacade::class,
+            'LangCountry' => \Dwoydig\LaravelLangCountry\LangCountryFacade::class,
             'Auth' => \Illuminate\Support\Facades\Auth::class,
         ];
     }
@@ -50,7 +50,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
         // Set the test routes
         $app['router']
             ->middleware(['web', 'lang_country'])
-            ->get('test_route', 'Stefro\LaravelLangCountry\Tests\Support\Controllers\TestRoutesController@testRoute')
+            ->get('test_route', 'Dwoydig\LaravelLangCountry\Tests\Support\Controllers\TestRoutesController@testRoute')
             ->name('test_route');
     }
 }

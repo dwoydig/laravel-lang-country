@@ -1,7 +1,7 @@
 <?php
 
 
-use Stefro\LaravelLangCountry\Services\PreferredLanguage;
+use Dwoydig\LaravelLangCountry\Services\PreferredLanguage;
 
 beforeEach(function () {
     $this->app['config']->set('lang-country.fallback', 'en-GB');

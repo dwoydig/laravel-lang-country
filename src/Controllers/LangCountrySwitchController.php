@@ -1,6 +1,6 @@
 <?php
 
-namespace Stefro\LaravelLangCountry\Controllers;
+namespace Dwoydig\LaravelLangCountry\Controllers;
 
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Routing\Controller;

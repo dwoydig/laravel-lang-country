@@ -1,12 +1,12 @@
 <?php
 
-namespace Stefro\LaravelLangCountry;
+namespace Dwoydig\LaravelLangCountry;
 
 use Carbon\Carbon;
 use Illuminate\Auth\Events\Login;
 use Illuminate\Support\ServiceProvider;
-use Stefro\LaravelLangCountry\Listeners\UserAuthenticated;
-use Stefro\LaravelLangCountry\Middleware\LangCountrySession;
+use Dwoydig\LaravelLangCountry\Listeners\UserAuthenticated;
+use Dwoydig\LaravelLangCountry\Middleware\LangCountrySession;
 
 class LaravelLangCountryServiceProvider extends ServiceProvider
 {

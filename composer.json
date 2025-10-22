@@ -4,16 +4,8 @@
   "keywords": [
     "LaravelLangCountry"
   ],
-  "homepage": "https://github.com/stefro/laravel-lang-country",
   "license": "MIT",
   "type": "library",
-  "authors": [
-    {
-      "name": "Stef Rouschop",
-      "email": "github@rouschop.com",
-      "role": "Developer"
-    }
-  ],
   "require": {
     "php": "^8.1|^8.2",
     "illuminate/support": "^9.0|^10.0|^11.0|^12.0"
@@ -33,7 +25,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Stefro\\LaravelLangCountry\\Tests\\": "tests"
+      "Dwoydig\\LaravelLangCountry\\Tests\\": "tests"
     }
   },
   "scripts": {
