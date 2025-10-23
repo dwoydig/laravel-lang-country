@@ -7,16 +7,16 @@ use Illuminate\Routing\Controller;
 
 class LangCountrySwitchController extends Controller
 {
-    public function switch(string $language_code): RedirectResponse
+    public function switch(string $lang_country): RedirectResponse
     {
-        if (! in_array($language_code, config('lang-country.allowed'))) {
+        if (! in_array($lang_country, config('lang-country.allowed'))) {
             return redirect()->back();
         }
 
-        \LangCountry::setAllSessions($language_code);
+        \LangCountry::setAllSessions($lang_country);
 
-        if (\Auth::user() && array_key_exists('language_code', \Auth::user()->getAttributes())) {
-            \Auth::user()->language_code = $language_code;
+        if (\Auth::user() && array_key_exists('lang_country', \Auth::user()->getAttributes())) {
+            \Auth::user()->lang_country = $lang_country;
             \Auth::user()->save();
         }
 

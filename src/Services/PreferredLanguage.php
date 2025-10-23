@@ -12,7 +12,7 @@ class PreferredLanguage
 
     protected string $fallback;
 
-    public string $language_code;
+    public string $lang_country;
 
     public string $locale;
 
@@ -21,7 +21,7 @@ class PreferredLanguage
         $this->allowed = $allowed ?? collect(config('lang-country.allowed'));
         $this->fallback = $fallback ?? config('lang-country.fallback');
         $this->client_preferred = $this->clientPreferredLanguages();
-        $this->language_code = $this->getLangCountry();
+        $this->lang_country = $this->getLangCountry();
         $this->locale = $this->getLocale();
     }
 
@@ -79,7 +79,7 @@ class PreferredLanguage
     }
 
     /**
-     * It will find the first best match for language_code according to the allowed list (from config file).
+     * It will find the first best match for lang_country according to the allowed list (from config file).
      */
     protected function getLangCountry(): string
     {
@@ -125,12 +125,12 @@ class PreferredLanguage
      */
     private function getLocale(): string
     {
-        $path = lang_path() . $this->language_code . '.json';
+        $path = lang_path() . $this->lang_country . '.json';
 
         if (file_exists($path)) {
-            return $this->language_code;
+            return $this->lang_country;
         } else {
-            return substr($this->language_code, 0, 2);
+            return substr($this->lang_country, 0, 2);
         }
     }
 }

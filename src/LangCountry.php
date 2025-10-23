@@ -9,7 +9,7 @@ use Dwoydig\LaravelLangCountry\Services\PreferredLanguage;
 
 class LangCountry
 {
-    protected ?string $language_code = null;
+    protected ?string $lang_country = null;
 
     protected array $data;
 
@@ -17,24 +17,24 @@ class LangCountry
 
     public function __construct()
     {
-        if (config('lang-country.fallback_based_on_current_locale', false) && ! session()->has(config('lang-country.language_code_field', 'language_code'))) {
+        if (config('lang-country.fallback_based_on_current_locale', false) && ! session()->has('lang_country')) {
             $lang = new PreferredLanguage(app()->getLocale());
-            $this->language_code = $lang->language_code;
+            $this->lang_country = $lang->lang_country;
         } else {
-            $this->language_code = session('language_code', config('lang-country.fallback'));
+            $this->lang_country = session('lang_country', config('lang-country.fallback'));
         }
-        $this->data = $this->getDataFromFile($this->language_code);
+        $this->data = $this->getDataFromFile($this->lang_country);
     }
 
     /**
      * @throws Exception
      */
-    public function overrideSession(string $language_code): void
+    public function overrideSession(string $lang_country): void
     {
-        $lang = new PreferredLanguage($language_code);
+        $lang = new PreferredLanguage($lang_country);
 
-        $this->language_code = $lang->language_code;
-        $this->data = $this->getDataFromFile($this->language_code);
+        $this->lang_country = $lang->lang_country;
+        $this->data = $this->getDataFromFile($this->lang_country);
     }
 
     /**
@@ -42,7 +42,7 @@ class LangCountry
      **/
     public function currentLangCountry(): string
     {
-        return $this->language_code;
+        return $this->lang_country;
     }
 
     /**
@@ -249,7 +249,7 @@ class LangCountry
                     'country_name_local' => $file['country_name_local'],
                     'lang' => $file['lang'],
                     'name' => $file['name'],
-                    'language_code' => $item,
+                    'lang_country' => $item,
                     'emoji_flag' => $file['emoji_flag'],
                     'currency_code' => $file['currency_code'],
                     'currency_symbol' => $file['currency_symbol'],
@@ -307,7 +307,7 @@ class LangCountry
     public function langSelectorHelper(): array
     {
         return $this->allLanguages()->reduce(function (?array $carry, array $item) {
-            if ($item['language_code'] != session('language_code')) {
+            if ($item['lang_country'] != session('lang_country')) {
                 $carry['available'][] = $item;
             } else {
                 $carry['current'] = $item;
@@ -320,20 +320,20 @@ class LangCountry
     public function setAllSessions(?string $preferred_lang): void
     {
         $lang = new PreferredLanguage($preferred_lang);
-        session(['language_code' => $lang->language_code]);
+        session(['lang_country' => $lang->lang_country]);
         session(['locale' => $lang->locale]);
     }
 
     /**
      * @throws Exception
      */
-    private function getDataFromFile(?string $language_code): array
+    private function getDataFromFile(?string $lang_country): array
     {
-        if ($language_code === null) {
-            throw new Exception('The language_code session is not set');
+        if ($lang_country === null) {
+            throw new Exception('The lang_country session is not set');
         }
 
-        $filename = $language_code . '.json';
+        $filename = $lang_country . '.json';
         if (file_exists(lang_path('lang-country-overrides/' . $filename))) {
             $resource = lang_path('lang-country-overrides/' . $filename);
         } else {
