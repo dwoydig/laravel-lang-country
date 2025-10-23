@@ -18,8 +18,8 @@ class UserAuthenticated
     public function handle(object $event): void
     {
         // Set the right sessions
-        if (null != $event->user->lang_country) {
-            \LangCountry::setAllSessions($event->user->lang_country);
+        if (null != $event->user->language_code) {
+            \LangCountry::setAllSessions($event->user->language_code);
         }
     }
 }

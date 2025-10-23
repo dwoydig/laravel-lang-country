@@ -23,12 +23,12 @@ class LaravelLangCountryServiceProvider extends ServiceProvider
 
         $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
 
-        $this->app['router']->aliasMiddleware('lang_country', LangCountrySession::class);
+        $this->app['router']->aliasMiddleware('language_code', LangCountrySession::class);
 
         $this->app['router']
             ->middleware(config('lang-country.lang_switcher_middleware'))
-            ->get('/' . config('lang-country.lang_switcher_uri', 'change_lang_country') . '/{lang_country}', 'Dwoydig\LaravelLangCountry\Controllers\LangCountrySwitchController@switch')
-            ->name('lang_country.switch');
+            ->get('/' . config('lang-country.lang_switcher_uri', 'change_language_code') . '/{language_code}', 'Dwoydig\LaravelLangCountry\Controllers\LangCountrySwitchController@switch')
+            ->name('language_code.switch');
 
         \Event::listen(Login::class, UserAuthenticated::class);
     }
