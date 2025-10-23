@@ -1,6 +1,6 @@
 <?php
 
-namespace Stefro\LaravelLangCountry\Services;
+namespace Dwoydig\LaravelLangCountry\Services;
 
 use Illuminate\Support\Collection;
 

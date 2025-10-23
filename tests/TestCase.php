@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Stefro\LaravelLangCountry\Tests;
+namespace Dwoydig\LaravelLangCountry\Tests;
 
 use Spatie\LaravelRay\RayServiceProvider;
 use Dwoydig\LaravelLangCountry\LaravelLangCountryServiceProvider;

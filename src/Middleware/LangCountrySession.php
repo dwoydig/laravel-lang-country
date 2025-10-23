@@ -1,6 +1,6 @@
 <?php
 
-namespace Stefro\LaravelLangCountry\Middleware;
+namespace Dwoydig\LaravelLangCountry\Middleware;
 
 use App;
 use Closure;

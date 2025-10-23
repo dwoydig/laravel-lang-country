@@ -1,11 +1,11 @@
 <?php
 
-namespace Stefro\LaravelLangCountry;
+namespace Dwoydig\LaravelLangCountry;
 
 use Carbon\Carbon;
 use Exception;
 use Illuminate\Support\Collection;
-use Stefro\LaravelLangCountry\Services\PreferredLanguage;
+use Dwoydig\LaravelLangCountry\Services\PreferredLanguage;
 
 class LangCountry
 {

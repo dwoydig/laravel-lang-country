@@ -1,6 +1,6 @@
 <?php
 
-namespace Stefro\LaravelLangCountry\Listeners;
+namespace Dwoydig\LaravelLangCountry\Listeners;
 
 class UserAuthenticated
 {

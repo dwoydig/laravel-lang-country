@@ -121,7 +121,7 @@ it('should use four char json when available', function () {
 
 it('should should be able to override the lang_country session', function () {
     session()->put('lang_country', 'nl-NL');
-    $langCountry = new \Stefro\LaravelLangCountry\LangCountry();
+    $langCountry = new \Dwoydig\LaravelLangCountry\LangCountry();
 
     expect($langCountry->currentLangCountry())->toEqual('nl-NL');
 
@@ -132,7 +132,7 @@ it('should should be able to override the lang_country session', function () {
 
 it('should throw an error when the lang_country session is null', function () {
     session()->put('lang_country', null);
-    $langCountry = new \Stefro\LaravelLangCountry\LangCountry();
+    $langCountry = new \Dwoydig\LaravelLangCountry\LangCountry();
 })->throws(\Exception::class, 'The lang_country session is not set');
 
 it('should use the fallback when the preferred_languages is null', function () {

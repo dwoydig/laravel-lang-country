@@ -42,10 +42,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Stefro\\LaravelLangCountry\\LaravelLangCountryServiceProvider"
+        "Dwoydig\\LaravelLangCountry\\LaravelLangCountryServiceProvider"
       ],
       "aliases": {
-        "LangCountry": "Stefro\\LaravelLangCountry\\LangCountryFacade"
+        "LangCountry": "Dwoydig\\LaravelLangCountry\\LangCountryFacade"
       }
     }
   },

@@ -1,7 +1,7 @@
 <?php
 
 
-use Stefro\LaravelLangCountry\Tests\Support\Models\User;
+use Dwoydig\LaravelLangCountry\Tests\Support\Models\User;
 
 beforeEach(function () {
     // Set config variables
